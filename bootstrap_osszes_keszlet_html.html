@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="p-5">
+
+    <!-- 1. GRID SYSTEM (Az összes oszlop-variáció) -->
+    <div class="container">
+        <div class="row g-3"> <!-- g-0, g-1, g-2, g-3, g-4, g-5 (közök) -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">Oszlop</div>
+        </div>
+    </div>
+
+    <!-- 2. TYPOGRAPHY (Szövegek) -->
+    <h1 class="display-1">Hatalmas cím</h1>
+    <p class="lead">Kiemelt szöveg</p>
+    <p class="text-muted">Szürke szöveg</p>
+    <p class="text-uppercase text-decoration-underline">Formázott szöveg</p>
+
+    <!-- 3. BUTTONS (Gombok) -->
+    <button class="btn btn-primary">Primary</button>
+    <button class="btn btn-secondary">Secondary</button>
+    <button class="btn btn-success">Success</button>
+    <button class="btn btn-danger">Danger</button>
+    <button class="btn btn-warning">Warning</button>
+    <button class="btn btn-info">Info</button>
+    <button class="btn btn-light">Light</button>
+    <button class="btn btn-dark">Dark</button>
+    <button class="btn btn-link">Link</button>
+
+    <!-- 4. CARDS (Kártyák) -->
+    <div class="card" style="width: 18rem;">
+        <div class="card-header">Header</div>
+        <div class="card-body">
+            <h5 class="card-title">Cím</h5>
+            <p class="card-text">Szöveg</p>
+            <button class="btn btn-primary">Gomb</button>
+        </div>
+        <div class="card-footer">Footer</div>
+    </div>
+
+    <!-- 5. NAVBARS (Navigációs sávok - minden variáció) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand">Logó</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active">Link</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 6. UTILITIES (Segédosztályok - minden irány) -->
+    <!-- m: margin, p: padding, t: top, b: bottom, s: start, e: end, x: x-tengely, y: y-tengely -->
+    <div class="m-5 p-5 border border-primary rounded shadow">Doboz</div>
+
+    <!-- 7. ALERTS (Figyelmeztetések) -->
+    <div class="alert alert-success">Sikeres művelet!</div>
+
+    <!-- 8. TABLES (Táblázatok) -->
+    <table class="table table-striped table-hover table-bordered table-sm">
+        <thead><tr><th>Cím</th></tr></thead>
+        <tbody><tr><td>Adat</td></tr></tbody>
+    </table>
+
+</body>
+</html>

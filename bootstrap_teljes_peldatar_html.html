@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Mintaoldal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="p-4">
+
+    <!-- 1. ELRENDEZÉS (LAYOUT) példa -->
+    <div class="container border p-3 mb-4">
+        <h2>Rácsrendszer példa</h2>
+        <div class="row">
+            <div class="col-12 col-md-6 bg-primary text-white">Fél oszlop (6/12)</div>
+            <div class="col-12 col-md-6 bg-secondary text-white">Fél oszlop (6/12)</div>
+        </div>
+    </div>
+
+    <!-- 2. TARTALOM (CONTENT) példa -->
+    <div class="mb-4">
+        <h1 class="display-1">Hatalmas cím</h1>
+        <p class="lead">Ez egy kiemelt bekezdés, nagyobb betűmérettel.</p>
+        <ul class="list-inline">
+            <li class="list-inline-item">Vízszintes</li>
+            <li class="list-inline-item">Lista</li>
+            <li class="list-inline-item">Példa</li>
+        </ul>
+    </div>
+
+    <!-- 3. FORMÁK (FORMS) példa -->
+    <form class="mb-4 p-3 border">
+        <div class="mb-3">
+            <label class="form-label">Felhasználónév</label>
+            <input type="text" class="form-control" placeholder="Írj ide...">
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="check1">
+            <label class="form-check-label" for="check1">Elfogadom a feltételeket</label>
+        </div>
+    </form>
+
+    <!-- 4. KOMPONENSEK (COMPONENTS) példa -->
+    <div class="card mb-4" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Kártya Cím</h5>
+            <p class="card-text">Ez egy kártya komponens.</p>
+            <button class="btn btn-success">Gomb</button>
+        </div>
+    </div>
+
+    <!-- 5. SEGÉDOSZTÁLYOK (UTILITIES) példa -->
+    <div class="d-flex justify-content-between p-3 bg-dark text-white rounded shadow">
+        <span>Flex tartalom balra</span>
+        <span>Flex tartalom jobbra</span>
+    </div>
+
+    <!-- 6. KÉPEK példa -->
+    <div class="mt-4">
+        <img src="kep.jpg" class="img-fluid img-thumbnail rounded-circle" style="width: 150px;" alt="Példa kép">
+    </div>
+
+</body>
+</html>
