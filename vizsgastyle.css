@@ -1,0 +1,67 @@
+body{
+    text-align: justify;
+    font-family: Arial, serif;
+    background-color: #D2E6BE;
+    color: rgb(117,73,45);
+}
+table{
+    margin-left:auto; 
+    margin-right:auto; 
+    text-align:center;
+    width:50%;
+    border: 2px solid #74492c !important;
+
+}
+.table tbody td{
+    padding: 15px;
+    border:none;
+}
+.table thead th{
+    border-bottom:2px solid #74492c;
+}
+#cim{
+    display:block;
+    margin:auto;
+}
+#harald{
+    float:right;
+    margin:0 0 20px 20px;
+}
+dt{
+    font-weight: bolder;
+    font-style: italic;
+}
+blockquote{
+    font-style: italic;
+    margin-left: 10%;
+}
+ul li{
+    list-style-type: square;
+    
+}
+.romai{
+    list-style-type: upper-roman;
+}
+a{
+    color:#74492c;
+    font-weight: bold;
+}
+h3{
+    font-size: 3em;
+    padding: 0;
+    margin: 0;
+    font-family: 'Allura', cursive;
+    border-bottom: 2px solid #74492c;
+}
+.nav-item{
+    display: inline;
+    margin: 0 10px;
+}
+
+@font-face {
+    font-family: 'Allura';
+    src: url('font/Allura-Regular.ttf');
+}
+.alkalmazas-lista li {
+    list-style-image: url(ha-bullet.png);
+}
