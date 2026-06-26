@@ -1,0 +1,67 @@
+/* CSS TELJES SEGÉDLET
+   Ez a fájl tartalmazza a legfontosabb CSS technikákat, 
+   amelyeket a vizsgán alkalmazhatsz a Bootstrap mellett.
+*/
+
+/* 1. SZÖVEG FORMÁZÁS (Typographia) */
+.szoveg-pelda {
+    font-family: 'Arial', sans-serif; /* Betűtípus */
+    font-size: 16px;                 /* Méret */
+    font-weight: bold;              /* Félkövér: normal, bold, 700 */
+    text-align: center;             /* Igazítás: left, center, right, justify */
+    color: #333333;                 /* Szín (HEX, RGB, vagy név) */
+    text-transform: uppercase;      /* Betűváltás: uppercase, lowercase, capitalize */
+}
+
+/* 2. DOBOZOK ÉS TÁVOLSÁGOK (Box Model) */
+.doboz-pelda {
+    width: 200px;                   /* Szélesség */
+    height: 100px;                  /* Magasság */
+    margin: 20px;                   /* Külső térköz (dobozon kívül) */
+    padding: 15px;                  /* Belső térköz (dobozon belül) */
+    border: 2px solid #000;         /* Keret: vastagság, típus, szín */
+    border-radius: 10px;            /* Lekerekített sarkok */
+}
+
+/* 3. HÁTTÉR ÉS ÁRNYÉK */
+.hatter-arnyek {
+    background-color: #f0f0f0;      /* Egyszínű háttér */
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Színátmenet */
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2); /* Árnyék: x, y, elmosás, szín */
+}
+
+/* 4. POZICIONÁLÁS */
+.kozepre-igazitas {
+    margin-left: auto;              /* Bal margó automatikus */
+    margin-right: auto;             /* Jobb margó automatikus */
+    display: block;                 /* Blokkos megjelenítés */
+}
+
+/* 5. EGÉRHÚZÁS EFFEKTEK (Hover) */
+.gomb-hover:hover {
+    background-color: blue;         /* Színváltozás egérre */
+    cursor: pointer;                /* Kézi kurzor */
+    transform: scale(1.1);          /* Enyhe nagyítás */
+    transition: 0.3s;               /* Animáció ideje */
+}
+
+/* 6. RESPONSIVE (Mobil optimalizálás) */
+@media (max-width: 768px) {
+    .doboz-pelda {
+        width: 100%;                /* Mobilon teljes szélesség */
+        margin: 0;                  /* Margó eltüntetése */
+    }
+}
+
+/* 7. DISPLAY TULAJDONSÁGOK (Láthatóság) */
+.elrejtett {
+    display: none;                  /* Teljesen eltünteti az elemet */
+}
+
+.blokk-elem {
+    display: block;                 /* Új sorba teszi */
+}
+
+.inline-elem {
+    display: inline-block;          /* Soron belül marad */
+}
