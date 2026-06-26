@@ -1,0 +1,38 @@
+/* 5. feladat: Általános oldalbeállítások (háttér és szövegszín) */
+body {
+    text-align: justify;
+    font-family: Arial, serif;
+    background-color: #D2E6BE;
+    color: rgb(117, 73, 45);
+}
+
+/* 12. feladat: Táblázat keretezése. !important a Bootstrap felülírásához */
+table {
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center;
+    width: 50%;
+    border: 2px solid #74492c !important;
+}
+
+/* 15. feladat: A listajelölők lecserélése a megadott képre */
+.alkalmazas-lista {
+    list-style-image: url('ha-bullet.png');
+}
+
+/* 17. feladat: Római számozás beállítása (upper-roman: I., II., III.) */
+.romai {
+    list-style-type: upper-roman;
+}
+
+/* 13. feladat: Linkek formázása barna színnel és félkövér betűvel */
+a {
+    color: #74492c;
+    font-weight: bold;
+}
+
+/* Egyéb vizuális finomhangolás */
+h3 {
+    font-size: 3em;
+    padding: 0;
+}
